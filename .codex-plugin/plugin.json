@@ -1,0 +1,38 @@
+{
+  "name": "joai-email",
+  "version": "0.3.0",
+  "description": "Connect Email to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+  "author": {
+    "name": "JoAi",
+    "email": "support@joai.ai",
+    "url": "https://joai.ai"
+  },
+  "homepage": "https://joai.ai/en/apps/email",
+  "repository": "https://github.com/JoAiHQ/plugins",
+  "license": "MIT",
+  "keywords": [
+    "joai",
+    "mcp",
+    "email"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Email by JoAi",
+    "shortDescription": "Connect Email to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+    "longDescription": "Send and manage emails through your AI agent.",
+    "developerName": "JoAi",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://joai.ai/en/apps/email",
+    "privacyPolicyURL": "https://legal.vleap.ai/policies/privacy.html",
+    "termsOfServiceURL": "https://legal.vleap.ai/general/legal-notice.html",
+    "defaultPrompt": [
+      "List the Email tools available in this app.",
+      "Explain what setup or authentication Email needs before I run an action.",
+      "Use Email to help me with the task I describe next."
+    ]
+  }
+}
